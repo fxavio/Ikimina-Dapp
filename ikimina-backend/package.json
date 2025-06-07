@@ -1,0 +1,24 @@
+{
+  "name": "ikimina-backend",
+  "version": "1.0.0",
+  "description": "Backend for Ikimina, a decentralized application",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "local": "npx hardhat run scripts/deploy.js --network localhost",
+    "sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.24.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ethers": "^6.14.3"
+  }
+}
